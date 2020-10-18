@@ -1,0 +1,25 @@
+.loader-container {
+    margin: auto;
+}
+
+.loader {
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    border: 1rem solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 1rem solid #3498db;
+    width: 7.5rem;
+    height: 7.5rem;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loader-message {
+    text-align: center;
+}

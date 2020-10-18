@@ -1,0 +1,94 @@
+.table-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.input-field {
+    width: 40%;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 14px 0 rgba(198,198,198,0.50);
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+}
+
+.input-field:focus {
+    border: none;
+}
+
+table { 
+    box-shadow: 0 2px 14px 0 rgba(198,198,198,0.50);
+    background: #fff;
+    border-collapse: collapse; 
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+table th {
+    background: #333;
+    color: #fff;
+    padding: 0.25rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 1px solid #EDEDED;
+}
+
+table tr:nth-child(even){
+    background-color: #e4e3e3
+}
+
+table td {
+    padding: 0.25rem 1.5rem;
+    font-size: 1rem;
+    border-bottom: 1px solid #EDEDED;
+}
+
+table th:nth-child(2), td:nth-child(2) {
+    text-align: center;
+    width: 20%;
+}
+
+table td img {
+    width: 1.25rem;
+    margin-left: 0.5rem;
+}
+
+.pagination {
+    margin: auto;
+    margin-bottom: 2rem;
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+}
+
+.pagination li {
+    display: list-item;
+    margin-right: 0.5rem;
+}
+
+.pagination li a {
+    padding: 0.5rem 0.75rem;
+    background-color: transparent;
+    outline: none;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.pagination li.active a {
+    background-color: rgba(0, 0, 0, 0.30);
+}
+
+.pagination li a:hover{
+    background-color: rgba(0, 0, 0, 0.10);
+    padding: 0.5rem 0.75rem;
+    border-radius: 100%;
+}
